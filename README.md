@@ -6,6 +6,10 @@ of `MessageDigest.isEqual(...)` (constant-time). An attacker can
 reconstruct a valid HMAC signature byte-by-byte by measuring response
 times, forging webhook events.
 
+## Screenshots
+
+![Screenshot 1](docs/screenshots/Screenshot_1.png)
+
 ## Why it exists
 
 CWE-208 (Observable Timing Discrepancy) -- a documented, well-known
