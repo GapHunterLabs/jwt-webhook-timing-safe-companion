@@ -4,6 +4,13 @@
 
 ## [Unreleased]
 
+## [0.1.1]
+
+### Fixed
+
+- Review/star CTA now links to this plugin's own Marketplace
+  reviews page instead of the vendor's generic plugin list.
+
 ## [0.1.0]
 
 ### Added
@@ -14,5 +21,6 @@
 - Detection scoped to methods that themselves compute an HMAC,
   recognizing signature-related identifiers by naming convention.
 
-[Unreleased]: https://github.com/GapHunterLabs/jwt-webhook-timing-safe-companion/compare/0.1.0...HEAD
+[Unreleased]: https://github.com/GapHunterLabs/jwt-webhook-timing-safe-companion/compare/0.1.1...HEAD
+[0.1.1]: https://github.com/GapHunterLabs/jwt-webhook-timing-safe-companion/compare/0.1.0...0.1.1
 [0.1.0]: https://github.com/GapHunterLabs/jwt-webhook-timing-safe-companion/commits/0.1.0
