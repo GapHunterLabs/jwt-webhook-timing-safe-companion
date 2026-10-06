@@ -1,0 +1,11 @@
+<html>
+<body>
+Reports a webhook or HMAC signature comparison done with <code>.equals()</code> or <code>Arrays.equals()</code>
+instead of <code>MessageDigest.isEqual(...)</code>, inside a method that computes an HMAC.
+<!-- tooltip end -->
+<p>These comparisons stop at the first differing byte, so response times reveal how much of a guessed signature is
+right, and a valid signature can be rebuilt byte by byte (CWE-208). <code>MessageDigest.isEqual</code> runs in constant
+time. Signature variables are recognized by name (<code>sig</code>, <code>hmac</code>, <code>hash</code>,
+<code>digest</code>, <code>mac</code>).</p>
+</body>
+</html>
